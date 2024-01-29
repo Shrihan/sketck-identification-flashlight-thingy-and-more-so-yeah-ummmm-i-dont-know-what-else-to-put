@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    width: 100%;
+    background-color: gray;
+    margin: 0;
+    padding: 10px;
+}
+#instruct{
+    float: right;
+}
+body{
+    text-align: center;
+    background-color: lightgrey;
+}
+p{
+    font-size: 30px;
+}
+canvas{
+    border:2px solid greenyellow;
+    border-radius:30px;
+    animation-name: example;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from{
+        box-shadow: 5px 5px 5px rgb(10, 143, 226);
+    }
+   to{
+        box-shadow: 5px 5px 5px rgb(205, 55, 103);
+    }
+}
